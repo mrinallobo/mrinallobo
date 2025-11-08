@@ -1,8 +1,17 @@
 # mrinallobo
 
-Platform Engineer. I spend most of my time in the terminal, working with Kubernetes, and writing automation tools.
+```bash
+$ whoami
+Platform Engineer | Living in the Terminal
+```
 
-## Stack
+<div align="center">
+  
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Living+in+the+Terminal;Kubernetes+%7C+Python+%7C+Rust;Building+Platform+Infrastructure)](https://git.io/typing-svg)
+
+</div>
+
+## $ cat stack.yaml
 
 ```yaml
 role: Platform Engineer
@@ -11,38 +20,44 @@ orchestration: Kubernetes
 languages:
   - Python
   - Rust
+focus:
+  learning: [eBPF, Service Mesh]
+  building: [Internal Platform, Automation Tools]
+  improving: [Cluster Management, Observability]
 ```
 
-## What I Work On
+## $ ls -la ~/work/
 
-Building and maintaining platform infrastructure. Designing internal developer platforms. Writing automation tooling in Python. Optimizing critical systems in Rust when performance matters.
+```
+drwxr-xr-x  platform-infrastructure/
+drwxr-xr-x  internal-developer-platforms/
+drwxr-xr-x  automation-tooling/
+drwxr-xr-x  kubernetes-clusters/
+drwxr-xr-x  ci-cd-pipelines/
+drwxr-xr-x  observability-stack/
+```
 
-Most of my work involves Kubernetes cluster management, CI/CD pipelines, and making infrastructure reliable and self-service.
-
-## Stats
-
-<div align="center">
-  
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mrinallobo&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9)
-  
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mrinallobo&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9)
-
-</div>
-
-## Currently
+## $ ./daily_work.sh
 
 ```python
-focus = {
-    "learning": ["eBPF", "Service Mesh"],
-    "building": ["Internal Platform", "Automation Tools"],
-    "improving": ["Cluster Management", "Observability"],
-}
+#!/usr/bin/env python3
+while True:
+    kubectl.apply("infrastructure")
+    automate("all_the_things")
+    optimize("critical_systems", lang="rust")
+    maintain("k8s_clusters")
+    improve("developer_experience")
 ```
 
 ---
 
 <div align="center">
-  
-  ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Platform+Engineer;Kubernetes;Python+%7C+Rust;Terminal)
+
+```
+╔═══════════════════════════════════════╗
+║  Platform Engineering                 ║
+║  @ Terminal Velocity                  ║
+╚═══════════════════════════════════════╝
+```
 
 </div>
